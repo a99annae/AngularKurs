@@ -1,0 +1,10 @@
+
+[
+    {"name":"Monday", "content":"", "isHoliday":"false"},
+    {"name":"Tuesday", "content":"", "isHoliday":"false"},
+    {"name":"Wendsday", "content":"", "isHoliday":"false"},
+    {"name":"Thursday", "content":"", "isHoliday":"false"},
+    {"name":"Friday", "content":"", "isHoliday":"false"},
+    {"name":"Saturday", "content":"", "isHoliday":"false"},
+    {"name":"Sunday", "content":"", "isHoliday":"false"}
+]

@@ -1,0 +1,26 @@
+<html>
+    <body ng-app="app" >
+        
+       <menu></menu>
+       <div ng-controller='weekDaysController'>
+           {{Hello}}
+            <weekday ng-repeat="weekday in weekdays"
+              day="weekday.name"
+              selected="selectedDay(weekday.name)" >
+              
+            </weekday>
+       </div>
+   
+        <div ng-view>
+            replace me
+        </div>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="app.js"></script>
+        <script src="menu/menu.directive.js"></script>
+        <script src="weekdays/weekdays.directive.js"></script>
+         <script src="weekdays/weekday.directive.js"></script>
+        <script src="weekdays/weekdays.controller.js"></script>
+        <script src="weekdays/weekdays.factory.js"></script>
+    </body>
+</html>
